@@ -11,6 +11,8 @@ const characters = [
   'img6',
   'img7',
   'img8',
+  'img9',
+  'img10',
 ];
 
 const createElement = (tag, className) => {
@@ -25,7 +27,7 @@ let secondCard = '';
 const checkEndGame = () => {
   const disabledCards = document.querySelectorAll('.disabled-card');
 
-  if (disabledCards.length === 16) {
+  if (disabledCards.length === 20) {
     clearInterval(this.loop);
     const playerName = spanPlayer.innerHTML;
   
